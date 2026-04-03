@@ -4,3 +4,4 @@ Habit Tracker is a web application that helps users build and maintain daily hab
 ## Group Members
 - Zhapbar Assylzhan
 - Kozhanbayev Kuanysh
+- Supugaliyeva Dilyara
