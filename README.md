@@ -5,3 +5,39 @@ Habit Tracker is a web application that helps users build and maintain daily hab
 - Zhapbar Assylzhan
 - Kozhanbayev Kuanysh
 - Supugaliyeva Dilyara
+- 
+# Habit Tracker API
+
+## Features
+- JWT Authentication
+- CRUD for habits and categories
+- Habit completion tracking
+- Streak calculation
+- Progress tracking
+- Statistics with filters
+
+## Endpoints
+
+### Auth
+POST /api/token/
+
+### Habits
+GET /api/habits/
+POST /api/habits/
+POST /api/habits/{id}/complete/
+GET /api/habits/{id}/progress/
+GET /api/habits/today/
+
+### Statistics
+GET /api/statistics/
+
+## Tech Stack
+- Django
+- Django REST Framework
+- JWT Authentication
+
+- ## Setup
+
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
