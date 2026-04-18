@@ -22,11 +22,11 @@ Habit Tracker is a web application that helps users build and maintain daily hab
 POST /api/token/
 
 ### Habits
-GET /api/habits/
-POST /api/habits/
-POST /api/habits/{id}/complete/
-GET /api/habits/{id}/progress/
-GET /api/habits/today/
+- GET /api/habits/
+- POST /api/habits/
+- POST /api/habits/{id}/complete/
+- GET /api/habits/{id}/progress/
+- GET /api/habits/today/
 
 ### Statistics
 GET /api/statistics/
